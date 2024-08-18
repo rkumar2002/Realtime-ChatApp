@@ -8,7 +8,7 @@ const firebaseConfig = {
   storageBucket: "real-time-chat-app-e7db8.appspot.com",
   messagingSenderId: "341834980647",
   appId: "1:341834980647:web:302c4e6f946de69b241d02",
-  measurementId: "G-6XRPMEQWPZ",
+  measurementId: "G-6XRPMEQWPZ"
 };
 
 const app = initializeApp(firebaseConfig);
