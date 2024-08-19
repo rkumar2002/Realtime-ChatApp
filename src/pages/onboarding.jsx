@@ -91,7 +91,7 @@ export default function OnBoarding() {
           height={300}
           width={300}
         />
-        <span className="text-7xl">WhatsApp</span>
+        <span className="text-8xl">Echo</span>
       </div>
       <div></div>
       <h2 className="text-2xl ">Create your profile</h2>

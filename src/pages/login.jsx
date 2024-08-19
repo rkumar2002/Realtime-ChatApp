@@ -63,19 +63,19 @@ export default function Login() {
     <div className="flex justify-center items-center bg-panel-header-background h-screen w-screen flex-col gap-6">
       <div className="flex items-center justify-center gap-8 text-white mb-7">
         <Image
-          src="/whatsapp.gif"
-          alt="whatsapp-gif"
-          height={300}
-          width={300}
+          src="/echo_transparent.png"
+          alt="echo"
+          height={400}
+          width={500}
         />
-        <span className="text-9xl">Echo</span>
+        {/* <span className="text-9xl">Echo</span> */}
       </div>
       <button
         className="flex items-center justify-center gap-3 bg-search-input-container-background p-3 rounded-lg"
         onClick={login}
       >
-        <FcGoogle className="text-4xl" />
-        <span className="text-white text-2xl">Login With Google</span>
+        <FcGoogle className="text-3xl" />
+        <span className="text-white text-xl pb-1">Login With Google</span>
       </button>
     </div>
   );
