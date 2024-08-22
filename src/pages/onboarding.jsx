@@ -84,16 +84,15 @@ export default function OnBoarding() {
 
   return (
     <div className="bg-panel-header-background h-screen w-screen text-white flex flex-col items-center justify-center">
-      <div className="flex items-center justify-center gap-2">
+      <div className="flex items-center justify-center gap-2 mb-7">
         <Image
-          src="/whatsapp.gif"
+          src="/favicon.png"
           alt="whatsapp-gif"
           height={300}
-          width={300}
+          width={200}
         />
-        <span className="text-8xl">Echo</span>
+        {/* <span className="text-8xl">Echo</span> */}
       </div>
-      <div></div>
       <h2 className="text-2xl ">Create your profile</h2>
       <div className="flex gap-6 mt-6 ">
         <div className="flex flex-col items-center justify-between mt-5 gap-6">
@@ -101,7 +100,7 @@ export default function OnBoarding() {
           <Input name="About" state={about} setState={setAbout} label />
           <div className="flex items-center justify-center">
             <button
-              className="bg-search-input-container-background p-5 rounded-lg"
+              className="bg-search-input-container-background px-5 py-3 rounded-lg mt-3"
               onClick={onBoardUser}
             >
               Create Profile
