@@ -11,6 +11,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+	return res.json({
+		success: true,
+		message: "Your server is up and running ...",
+	});
+});
+
 app.use("/uploads/recordings", express.static("uploads/recordings"));
 app.use("/uploads/images/", express.static("uploads/images"));
 
